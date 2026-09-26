@@ -4,7 +4,7 @@ git push
 
 /*https://github.com/hogeschoolnovi/frontend-html-css-concept-opdracht/blob/master/assets/screenshots/basic/basic-desktop.png*/
 
-Ik ben nu bij opdracht 2.2
+Ik ben nu bij opdracht 3
 
 
 # NOVI Eindopdracht

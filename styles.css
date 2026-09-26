@@ -64,6 +64,7 @@ header {
     padding: 20px 100px 0 100px;
     text-align: center;
     color: white;
+    position: relative;
 }
 .list-header {
     display: flex;
@@ -77,19 +78,18 @@ header {
     justify-content: space-between;
     gap: 30px;
 }
+.list-header a {
+    color: white;
+    text-decoration: none;
+}
 .title-header {
-    padding: 70px 20px 120px 20px;
+    padding: 70px 20px 90px 20px;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url("assets/squiggle_line_stripe.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 50px auto;
-    background-position: bottom;
 }
-p {
-    padding: 30px;
+.title-header p {
+    padding: 20px;
     }
 .button-header {
     display: flex;
@@ -102,12 +102,38 @@ p {
     margin: 0 auto;
     font-size: 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+}
+.icon-header {
+    background-image: url("assets/squiggle_line_stripe.svg");
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
 }
 
-/* --------------- 4.2 Hello ------------------- */
-/* --------------- 4.3 Work ------------------- */
-/* --------------- 4.4 Variety ------------------- */
-/* --------------- 4.5 Worth ------------------- */
+/* --------------- 4.2 Introduction ------------------- */
+.introduction {
+    padding: 70px 0 70px 0;
+    text-align: center;
+    color: var(--color-paars);
+}
+.introduction h3 {
+    padding: 10px;
+}
+.introduction p {
+    padding: 70px 0 50px 0;
+    color: black;
+    font-size: 10px;
+}
+.introduction a {
+    text-decoration: none;
+}
+/* --------------- 4.3 case-studies------------------- */
 /* --------------- 4.6 Services ------------------- */
 /* --------------- 4.7 Form ------------------- */
 /* --------------- 4.8 Footer ------------------- */

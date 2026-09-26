@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,42 +14,68 @@
 <header>
     <div class="list-header">
         <ul>
-            <li>Case Studies</li>
-            <li>Services</li>
-            <li>Contact Us</li>
+            <li><a href="#case-studies">Case Studies</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
         </ul>
     </div>
     <div class="title-header">
         <h1>Your website is an investment in the success of your business.</h1>
         <p>We are here to help you succeed.</p>
         <div class="button-header">
-            LET'S WORK TOGETHER
+            let's work together
+        </div>
+        <div class="icon-header"></div>
+    </div>
 </header>
 <main>
-    <section class="hello">
-        Hello
-        Rekupe is a digital agency in Los Angeles. We use strategic UX, SEO optimization and beautiful visual designs to
-        help your business grow. We see every project as a fresh opportunity, pushing ourselves to create new digital
-        experiences. Have a question? Click here to contact us!
+    <section class="introduction">
+<!--        Hello-->
+        <h3>Rekupe is a digital agency in Los Angeles.</h3>
+        <h3>We use strategic UX, SEO optimization and beautiful visual designs to
+            help your business grow.</h3>
+        <h3>We see every project as a fresh opportunity, pushing ourselves to create new digital
+            experiences.</h3>
+        <p>Have a question? <a href="">Click here</a> to contact us!</p>
     </section>
-    <section class="work">
-        Work
-        Rolling Stone
-
-        You know Rolling Stone. It’s the definitive voice in music, politics and culture. It’s a global icon.
+    <section id="case-studies" class="case-studies">
+        <!--            Work-->
+        <article class="work">
+            <div>
+                <h3>Rolling Stone</h3>
+                <p>You know Rolling Stone. It’s the definitive voice in music, politics and culture. It’s a global
+                    icon.</p>
+                <a href="/">view project -</a>
+            </div>
+            <span>
+                <img src="assets/work-image-01.jpeg">
+            </span>
+        </article>
+        <article class="variety">
+            <div>
+                <h3>Variety</h3>
+                <p>Variety is an industry leader for breaking entertainment news, reviews and box office results with
+                    archive
+                    of content dating back to 1905.</p>
+                <a href="/">view project -</a>
+            </div>
+            <span>
+                <img src="assets/work-image-02.jpeg">
+            </span>
+        </article>
+        <article class="worth">
+            <div>
+                <h3>Worth</h3>
+                <p>A global media platform connecting a community that embraces worth beyond wealth.</p>
+                <a href="/">view project -</a>
+            </div>
+            <span>
+                <img src="assets/work-image-03.jpeg">
+            </span>
+        </article>
+        </article>
     </section>
-    <section class="variety">
-        Variety
-
-        Variety is an industry leader for breaking entertainment news, reviews and box office results with archive of
-        content dating back to 1905.
-    </section>
-    <section class="worth">
-        Worth
-
-        A global media platform connecting a community that embraces worth beyond wealth.
-    </section>
-    <section class="services">
+    <section id="services" class="services">
         Services
         Web Design Good web design is how companies stand out from their competitors. High quality web design leads to
         increased user conversion and engagement. Through a proven web design process, we help clients launch websites
@@ -76,7 +102,7 @@
         voice will help you stand out from the crowd and build brand loyalty. We work with you to establish your brand
         bible and ensure your messaging is focused and targeted.
     </section>
-    <section class="from">
+    <section id="contact-us" class="contact">
         Let's work together
         Have a question? Need a quote? Let us know!
         <form>
