@@ -1,3 +1,12 @@
+git add .
+git commit -m "uitwerking homepage"
+git push
+
+/*https://github.com/hogeschoolnovi/frontend-html-css-concept-opdracht/blob/master/assets/screenshots/basic/basic-desktop.png*/
+
+Ik ben nu bij opdracht 2.2
+
+
 # NOVI Eindopdracht
 
 Dit is mijn (Arnoud Prinz) eindopdracht voor de Full Stack Bootcamp bij NOVI Hogeschool.
