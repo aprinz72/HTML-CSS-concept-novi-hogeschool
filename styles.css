@@ -141,6 +141,7 @@ header {
 .case-studies {
     border: 5px dashed red;
     padding-left: 20px;
+    background-color: var(--color-background-project);
 }
 
 .case-studies article{
@@ -186,8 +187,38 @@ header {
 .case-studies p{
     padding: 20px 0;
 }
-
 /* --------------- 4.6 Services ------------------- */
+.services {
+    padding: 100px 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.services .card{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 275px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    border: 1px solid var(--color-paars);
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    align-items: flex-start;
+    color: var(--color-text-tail);
+    font-size: 10px;
+}
+
+.services .card img{
+    width: 50px;
+}
+.services .card h4{
+    color: var(--color-paars);
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
 /* --------------- 4.7 Form ------------------- */
 /* --------------- 4.8 Footer ------------------- */
 
