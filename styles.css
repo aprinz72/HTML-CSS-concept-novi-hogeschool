@@ -43,7 +43,8 @@ body {
 }
 
 main {
-    padding: 0 100px 0 100px;
+    padding: 0 40px;
+    border: 2px dashed black;
 }
 
 /* ------------------------------- 3. Layout --------------------------------------- */
@@ -61,14 +62,16 @@ header {
             var(--color-blauw),
             var(--color-paars)
             );
-    padding: 20px 100px 0 100px;
+    padding: 20px 40px 0 40px;
     text-align: center;
     color: white;
     position: relative;
+    border: 5px dashed green;
 }
 .list-header {
     display: flex;
     justify-content: flex-end;
+    border: 2px dashed black;
 }
 
 .list-header ul {
@@ -121,6 +124,7 @@ header {
     padding: 70px 0 70px 0;
     text-align: center;
     color: var(--color-paars);
+    border: 5px dashed yellow;
 }
 .introduction h3 {
     padding: 10px;
@@ -134,6 +138,55 @@ header {
     text-decoration: none;
 }
 /* --------------- 4.3 case-studies------------------- */
+.case-studies {
+    border: 5px dashed red;
+    padding-left: 20px;
+}
+
+.case-studies article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.case-studies article:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.case-studies article div{
+    flex-basis: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+     border: 5px dashed yellow;
+}
+.case-studies img {
+    width: 100%;
+}
+
+.case-studies .image-wrapper {
+    flex-basis: 700px;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+.case-studies h3 {
+    padding: 30px 0;
+    position: relative;
+}
+
+.case-studies h3::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 0;
+    bottom: -10px;
+    background: url("assets/squiggle_line.svg") no-repeat;
+}
+
+.case-studies p{
+    padding: 20px 0;
+}
+
 /* --------------- 4.6 Services ------------------- */
 /* --------------- 4.7 Form ------------------- */
 /* --------------- 4.8 Footer ------------------- */
