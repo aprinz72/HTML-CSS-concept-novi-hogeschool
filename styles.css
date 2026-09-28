@@ -269,6 +269,8 @@ header {
     border: none;
     align-self: center;
     margin-top: 15px;
+    color: white;
+    text-transform: uppercase;
     cursor: pointer;
 }
 
@@ -283,3 +285,117 @@ footer{
 
 
 /* ------------------------------- 5. Media Queries -------------------------------- */
+@media (max-width: 768px) {
+    main {
+        padding: 0 10px;
+    }
+
+    header {
+        padding: 20px 10px 50px 10px;
+    }
+
+    .list-header {
+        justify-content: center;
+        font-size: 12px;
+    }
+
+    .list-header ul {
+        width: 80%;
+    }
+
+    .title-header {
+        padding: 70px 0 90px 0;
+    }
+
+    .title-header h1 {
+        font-size: 40px;
+    }
+
+    .title-header p {
+        font-size: 18px;
+    }
+
+    .introduction {
+        padding: 70px 0 50px 0;
+    }
+
+    .introduction h3 {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .introduction p {
+        font-size: 18px;
+    }
+.case-studies {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+    .case-studies article,
+    .case-studies article:nth-child(even) {
+        flex-direction: column;
+    }
+
+    .case-studies article .image-wrapper {
+        order: 1;
+    }
+
+    .case-studies article div {
+        order: 2;
+    }
+    .case-studies .image-wrapper,
+    .case-studies article div {
+        flex-basis: auto;
+    }
+    @media (max-width: 768px) {
+        .services {
+            gap: 40px;
+        }
+
+        .services .card {
+            flex-basis: 100%;
+            padding-bottom: 60px;
+        }
+
+        .services .card img {
+            width: 90px;
+        }
+
+        .services .card h4 {
+            font-size: 30px;
+        }
+
+        .services .card p {
+            font-size: 20px;
+        }
+        .contact{
+            padding-top: 60px;
+            padding-bottom: 40px;
+        }
+        .contact h2{
+            font-size: 35px;
+        }
+        .contact p{
+            font-size: 18px;
+        }
+
+        .contact .contact-form {
+            width: 100%;
+        }
+    }
+    .contact .contact-form label{
+        font-size: 15px;
+        margin-top: 25px;
+    }
+    .contact .contact-form input{
+        height: 40px;
+    }
+    .contact-form textarea {
+        height: 200px;
+    }
+    footer{
+        font-size: 12px;
+        line-height: 50px;
+    }
+}
